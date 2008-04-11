@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/ME405/mecha08/!svn/ver/3/adc_driver
+END
+rs232.cc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ME405/mecha08/!svn/ver/4/adc_driver/rs232.cc
+END
+base_text_serial.cc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/ME405/mecha08/!svn/ver/4/adc_driver/base_text_serial.cc
+END
+doxygen.conf
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/ME405/mecha08/!svn/ver/4/adc_driver/doxygen.conf
+END
+rs232.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ME405/mecha08/!svn/ver/4/adc_driver/rs232.h
+END
+avr_adc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/ME405/mecha08/!svn/ver/4/adc_driver/avr_adc.cc
+END
+base_text_serial.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ME405/mecha08/!svn/ver/4/adc_driver/base_text_serial.h
+END
+avr_adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/ME405/mecha08/!svn/ver/4/adc_driver/avr_adc.h
+END
+adc_test.cc
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/ME405/mecha08/!svn/ver/4/adc_driver/adc_test.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/ME405/mecha08/!svn/ver/4/adc_driver/Makefile
+END

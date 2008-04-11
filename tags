@@ -1,0 +1,163 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ADC_RETRIES	avr_adc.cc	21;"	d	file:
+ADC_result	avr_adc.cc	/^typedef union ADC_result$/;"	u	file:
+ADC_result::bytes	avr_adc.cc	/^    char bytes[2];                          \/\/ The bytes in the number$/;"	m	union:ADC_result	file:	access:public
+ADC_result::word	avr_adc.cc	/^    int word;                               \/\/ The whole 16-bit number$/;"	m	union:ADC_result	file:	access:public
+AVARICE	Makefile	/^AVARICE = avarice                # Name of JTAG interface program$/;"	m
+BAUD_DIV	adc_test.cc	24;"	d	file:
+CC	Makefile	/^CC = avr-gcc                     # Name of compiler program$/;"	m
+CHIP	Makefile	/^CHIP=m128$/;"	m
+DBCMFL	Makefile	/^DBCMFL = gdb.commands            # File containing debugger startup commands$/;"	m
+DEBUGL	Makefile	/^DEBUGL = DEBUG_LEVEL=0           # Option for debugging level$/;"	m
+DEBUGPROG	Makefile	/^DEBUGPROG = \/usr\/avr\/bin\/avr-insight   # Name of debugger, avr-gdb or avr-insight$/;"	m
+DEBUG_CODES	Makefile	/^DEBUG_CODES = $/;"	m
+HDRS	Makefile	/^HDRS =                           # Not used$/;"	m
+HWARE	Makefile	/^HWARE = bsd                      # Type of cable ('bsd' is parport cable)$/;"	m
+IPPORT	Makefile	/^IPPORT = :4242                   # IP port on which Avarice and Insight talk$/;"	m
+JHWARE	Makefile	/^JHWARE = jtagice                 # Type of JTAG-ICE interface$/;"	m
+JPORT	Makefile	/^JPORT = \/dev\/ttyUSB0             # Port to which JTAG-ICE is connected$/;"	m
+LINKMODE	Makefile	/^LINKMODE = -g                    # Linker mode string$/;"	m
+MCU	Makefile	/^MCU=atmega128$/;"	m
+OBJS	Makefile	/^OBJS = $(TARGET).o base_text_serial.o rs232.o avr_adc.o$/;"	m
+OPTIM	Makefile	/^OPTIM = -O2                      # Optimization level for compiler (0, n, s)$/;"	m
+PORT	Makefile	/^PORT = \/dev\/parport0             # Port used by avrdude downloader program$/;"	m
+RXC_MASK	rs232.h	37;"	d
+RXC_MASK	rs232.h	41;"	d
+RXC_MASK	rs232.h	45;"	d
+RXC_MASK	rs232.h	49;"	d
+RXC_MASK	rs232.h	53;"	d
+RXC_MASK	rs232.h	57;"	d
+STD	Makefile	/^STD = _GNU_SOURCE                # Standard compiler options$/;"	m
+TARGET	Makefile	/^TARGET = adc_test$/;"	m
+UART_TX_TOUT	rs232.h	62;"	d
+UDRE_MASK	rs232.h	36;"	d
+UDRE_MASK	rs232.h	40;"	d
+UDRE_MASK	rs232.h	44;"	d
+UDRE_MASK	rs232.h	48;"	d
+UDRE_MASK	rs232.h	52;"	d
+UDRE_MASK	rs232.h	56;"	d
+_AVR_ADC_H_	avr_adc.h	15;"	d
+_BASE_TEXT_SERIAL_H_	base_text_serial.h	25;"	d
+_RS232_H_	rs232.h	26;"	d
+avr_adc	avr_adc.cc	/^avr_adc::avr_adc (base_text_serial* p_serial_port)$/;"	f	class:avr_adc	signature:(base_text_serial* p_serial_port)
+avr_adc	avr_adc.h	/^        avr_adc (base_text_serial*);$/;"	p	class:avr_adc	access:public	signature:(base_text_serial*)
+avr_adc	avr_adc.h	/^class avr_adc$/;"	c
+avr_adc::avr_adc	avr_adc.cc	/^avr_adc::avr_adc (base_text_serial* p_serial_port)$/;"	f	class:avr_adc	signature:(base_text_serial* p_serial_port)
+avr_adc::avr_adc	avr_adc.h	/^        avr_adc (base_text_serial*);$/;"	p	class:avr_adc	access:public	signature:(base_text_serial*)
+avr_adc::ptr_to_serial	avr_adc.h	/^        base_text_serial* ptr_to_serial;$/;"	m	class:avr_adc	access:protected
+avr_adc::read_once	avr_adc.cc	/^unsigned int avr_adc::read_once (unsigned char channel)$/;"	f	class:avr_adc	signature:(unsigned char channel)
+avr_adc::read_once	avr_adc.h	/^        unsigned int read_once (unsigned char);$/;"	p	class:avr_adc	access:public	signature:(unsigned char)
+base	base_text_serial.h	/^        unsigned char base;$/;"	m	class:base_text_serial	access:protected
+base_text_serial	base_text_serial.cc	/^base_text_serial::base_text_serial (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial	base_text_serial.h	/^        base_text_serial (void);            \/\/ Simple constructor doesn't do much$/;"	p	class:base_text_serial	access:public	signature:(void)
+base_text_serial	base_text_serial.h	/^class base_text_serial$/;"	c
+base_text_serial::base	base_text_serial.h	/^        unsigned char base;$/;"	m	class:base_text_serial	access:protected
+base_text_serial::base_text_serial	base_text_serial.cc	/^base_text_serial::base_text_serial (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial::base_text_serial	base_text_serial.h	/^        base_text_serial (void);            \/\/ Simple constructor doesn't do much$/;"	p	class:base_text_serial	access:public	signature:(void)
+base_text_serial::check_for_char	base_text_serial.cc	/^bool base_text_serial::check_for_char (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial::check_for_char	base_text_serial.h	/^        virtual bool check_for_char (void); \/\/ Check if a character is in the buffer$/;"	p	class:base_text_serial	access:public	signature:(void)
+base_text_serial::getchar	base_text_serial.cc	/^char base_text_serial::getchar (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial::getchar	base_text_serial.h	/^        virtual char getchar (void);        \/\/ Get a character; wait if none is ready$/;"	p	class:base_text_serial	access:public	signature:(void)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (bool value)$/;"	f	class:base_text_serial	signature:(bool value)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (char num)$/;"	f	class:base_text_serial	signature:(char num)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (const char* string)$/;"	f	class:base_text_serial	signature:(const char* string)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (int num)$/;"	f	class:base_text_serial	signature:(int num)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (long num)$/;"	f	class:base_text_serial	signature:(long num)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (ser_manipulator new_base)$/;"	f	class:base_text_serial	signature:(ser_manipulator new_base)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned char num)$/;"	f	class:base_text_serial	signature:(unsigned char num)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned int num)$/;"	f	class:base_text_serial	signature:(unsigned int num)
+base_text_serial::operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned long num)$/;"	f	class:base_text_serial	signature:(unsigned long num)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (bool);$/;"	p	class:base_text_serial	access:public	signature:(bool)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (char num);$/;"	p	class:base_text_serial	access:public	signature:(char num)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (const char*);$/;"	p	class:base_text_serial	access:public	signature:(const char*)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (int);$/;"	p	class:base_text_serial	access:public	signature:(int)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (long);$/;"	p	class:base_text_serial	access:public	signature:(long)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (ser_manipulator);$/;"	p	class:base_text_serial	access:public	signature:(ser_manipulator)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned char);$/;"	p	class:base_text_serial	access:public	signature:(unsigned char)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned int);$/;"	p	class:base_text_serial	access:public	signature:(unsigned int)
+base_text_serial::operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned long);$/;"	p	class:base_text_serial	access:public	signature:(unsigned long)
+base_text_serial::putchar	base_text_serial.h	/^        virtual bool putchar (char) { }     \/\/\/< Virtual and not defined in base class$/;"	f	class:base_text_serial	access:public	signature:(char)
+base_text_serial::puts	base_text_serial.h	/^        virtual void puts (char const*) { } \/\/\/< Virtual and not defined in base class$/;"	f	class:base_text_serial	access:public	signature:(char const*)
+base_text_serial::ready_to_send	base_text_serial.cc	/^bool base_text_serial::ready_to_send (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial::ready_to_send	base_text_serial.h	/^        virtual bool ready_to_send (void);  \/\/ Virtual and not defined in base class$/;"	p	class:base_text_serial	access:public	signature:(void)
+base_text_serial::transmit_now	base_text_serial.cc	/^void base_text_serial::transmit_now (void)$/;"	f	class:base_text_serial	signature:(void)
+base_text_serial::transmit_now	base_text_serial.h	/^        virtual void transmit_now (void);   \/\/ Immediately transmit any buffered data$/;"	p	class:base_text_serial	access:public	signature:(void)
+bin	base_text_serial.h	/^    bin,                    \/\/\/< Print following numbers in base 2 (binary)$/;"	e	enum:__anon1
+bytes	avr_adc.cc	/^    char bytes[2];                          \/\/ The bytes in the number$/;"	m	union:ADC_result	file:	access:public
+check_for_char	base_text_serial.cc	/^bool base_text_serial::check_for_char (void)$/;"	f	class:base_text_serial	signature:(void)
+check_for_char	base_text_serial.h	/^        virtual bool check_for_char (void); \/\/ Check if a character is in the buffer$/;"	p	class:base_text_serial	access:public	signature:(void)
+check_for_char	rs232.cc	/^bool rs232::check_for_char (void)$/;"	f	class:rs232	signature:(void)
+check_for_char	rs232.h	/^        bool check_for_char (void);         \/\/ Check if a character is in the buffer$/;"	p	class:rs232	access:public	signature:(void)
+dec	base_text_serial.h	/^    dec,                    \/\/\/< Print following numbers in base 10 (decimal)$/;"	e	enum:__anon1
+endl	base_text_serial.h	/^    endl,                   \/\/\/< Print a carriage return and linefeed$/;"	e	enum:__anon1
+getchar	base_text_serial.cc	/^char base_text_serial::getchar (void)$/;"	f	class:base_text_serial	signature:(void)
+getchar	base_text_serial.h	/^        virtual char getchar (void);        \/\/ Get a character; wait if none is ready$/;"	p	class:base_text_serial	access:public	signature:(void)
+getchar	rs232.cc	/^char rs232::getchar (void)$/;"	f	class:rs232	signature:(void)
+getchar	rs232.h	/^        char getchar (void);                \/\/ Get a character; wait if none is ready$/;"	p	class:rs232	access:public	signature:(void)
+hex	base_text_serial.h	/^    hex,                    \/\/\/< Print following numbers in base 16 (hexadecimal)$/;"	e	enum:__anon1
+main	adc_test.cc	/^int main ()$/;"	f	signature:()
+oct	base_text_serial.h	/^    oct,                    \/\/\/< Print following numbers in base 8 (octal)$/;"	e	enum:__anon1
+operator <<	avr_adc.cc	/^base_text_serial& operator<< (base_text_serial& serial, avr_adc& my_adc)$/;"	f	signature:(base_text_serial& serial, avr_adc& my_adc)
+operator <<	avr_adc.h	/^base_text_serial& operator<< (base_text_serial&, avr_adc&);$/;"	p	signature:(base_text_serial&, avr_adc&)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (bool value)$/;"	f	class:base_text_serial	signature:(bool value)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (char num)$/;"	f	class:base_text_serial	signature:(char num)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (const char* string)$/;"	f	class:base_text_serial	signature:(const char* string)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (int num)$/;"	f	class:base_text_serial	signature:(int num)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (long num)$/;"	f	class:base_text_serial	signature:(long num)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (ser_manipulator new_base)$/;"	f	class:base_text_serial	signature:(ser_manipulator new_base)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned char num)$/;"	f	class:base_text_serial	signature:(unsigned char num)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned int num)$/;"	f	class:base_text_serial	signature:(unsigned int num)
+operator <<	base_text_serial.cc	/^base_text_serial& base_text_serial::operator<< (unsigned long num)$/;"	f	class:base_text_serial	signature:(unsigned long num)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (bool);$/;"	p	class:base_text_serial	access:public	signature:(bool)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (char num);$/;"	p	class:base_text_serial	access:public	signature:(char num)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (const char*);$/;"	p	class:base_text_serial	access:public	signature:(const char*)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (int);$/;"	p	class:base_text_serial	access:public	signature:(int)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (long);$/;"	p	class:base_text_serial	access:public	signature:(long)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (ser_manipulator);$/;"	p	class:base_text_serial	access:public	signature:(ser_manipulator)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned char);$/;"	p	class:base_text_serial	access:public	signature:(unsigned char)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned int);$/;"	p	class:base_text_serial	access:public	signature:(unsigned int)
+operator <<	base_text_serial.h	/^        base_text_serial& operator<< (unsigned long);$/;"	p	class:base_text_serial	access:public	signature:(unsigned long)
+p_UCR	rs232.h	/^        volatile unsigned char* p_UCR;$/;"	m	class:rs232	access:protected
+p_UDR	rs232.h	/^        volatile unsigned char* p_UDR;$/;"	m	class:rs232	access:protected
+p_USR	rs232.h	/^        volatile unsigned char* p_USR;$/;"	m	class:rs232	access:protected
+ptr_to_serial	avr_adc.h	/^        base_text_serial* ptr_to_serial;$/;"	m	class:avr_adc	access:protected
+putchar	base_text_serial.h	/^        virtual bool putchar (char) { }     \/\/\/< Virtual and not defined in base class$/;"	f	class:base_text_serial	access:public	signature:(char)
+putchar	rs232.cc	/^bool rs232::putchar (char chout)$/;"	f	class:rs232	signature:(char chout)
+putchar	rs232.h	/^        bool putchar (char);                \/\/ Write one character to serial port$/;"	p	class:rs232	access:public	signature:(char)
+puts	base_text_serial.h	/^        virtual void puts (char const*) { } \/\/\/< Virtual and not defined in base class$/;"	f	class:base_text_serial	access:public	signature:(char const*)
+puts	rs232.cc	/^void rs232::puts (char const* str)$/;"	f	class:rs232	signature:(char const* str)
+puts	rs232.h	/^        void puts (char const*);            \/\/ Write a string constant to serial port$/;"	p	class:rs232	access:public	signature:(char const*)
+read_once	avr_adc.cc	/^unsigned int avr_adc::read_once (unsigned char channel)$/;"	f	class:avr_adc	signature:(unsigned char channel)
+read_once	avr_adc.h	/^        unsigned int read_once (unsigned char);$/;"	p	class:avr_adc	access:public	signature:(unsigned char)
+ready_to_send	base_text_serial.cc	/^bool base_text_serial::ready_to_send (void)$/;"	f	class:base_text_serial	signature:(void)
+ready_to_send	base_text_serial.h	/^        virtual bool ready_to_send (void);  \/\/ Virtual and not defined in base class$/;"	p	class:base_text_serial	access:public	signature:(void)
+ready_to_send	rs232.cc	/^bool rs232::ready_to_send (void)$/;"	f	class:rs232	signature:(void)
+ready_to_send	rs232.h	/^        bool ready_to_send (void);          \/\/ Check if the port is ready to transmit$/;"	p	class:rs232	access:public	signature:(void)
+rs232	rs232.cc	/^rs232::rs232 (unsigned char divisor, unsigned char port_number)$/;"	f	class:rs232	signature:(unsigned char divisor, unsigned char port_number)
+rs232	rs232.h	/^        rs232 (unsigned char, unsigned char = 0);$/;"	p	class:rs232	access:public	signature:(unsigned char, unsigned char = 0)
+rs232	rs232.h	/^class rs232 : public base_text_serial$/;"	c	inherits:base_text_serial
+rs232::check_for_char	rs232.cc	/^bool rs232::check_for_char (void)$/;"	f	class:rs232	signature:(void)
+rs232::check_for_char	rs232.h	/^        bool check_for_char (void);         \/\/ Check if a character is in the buffer$/;"	p	class:rs232	access:public	signature:(void)
+rs232::getchar	rs232.cc	/^char rs232::getchar (void)$/;"	f	class:rs232	signature:(void)
+rs232::getchar	rs232.h	/^        char getchar (void);                \/\/ Get a character; wait if none is ready$/;"	p	class:rs232	access:public	signature:(void)
+rs232::p_UCR	rs232.h	/^        volatile unsigned char* p_UCR;$/;"	m	class:rs232	access:protected
+rs232::p_UDR	rs232.h	/^        volatile unsigned char* p_UDR;$/;"	m	class:rs232	access:protected
+rs232::p_USR	rs232.h	/^        volatile unsigned char* p_USR;$/;"	m	class:rs232	access:protected
+rs232::putchar	rs232.cc	/^bool rs232::putchar (char chout)$/;"	f	class:rs232	signature:(char chout)
+rs232::putchar	rs232.h	/^        bool putchar (char);                \/\/ Write one character to serial port$/;"	p	class:rs232	access:public	signature:(char)
+rs232::puts	rs232.cc	/^void rs232::puts (char const* str)$/;"	f	class:rs232	signature:(char const* str)
+rs232::puts	rs232.h	/^        void puts (char const*);            \/\/ Write a string constant to serial port$/;"	p	class:rs232	access:public	signature:(char const*)
+rs232::ready_to_send	rs232.cc	/^bool rs232::ready_to_send (void)$/;"	f	class:rs232	signature:(void)
+rs232::ready_to_send	rs232.h	/^        bool ready_to_send (void);          \/\/ Check if the port is ready to transmit$/;"	p	class:rs232	access:public	signature:(void)
+rs232::rs232	rs232.cc	/^rs232::rs232 (unsigned char divisor, unsigned char port_number)$/;"	f	class:rs232	signature:(unsigned char divisor, unsigned char port_number)
+rs232::rs232	rs232.h	/^        rs232 (unsigned char, unsigned char = 0);$/;"	p	class:rs232	access:public	signature:(unsigned char, unsigned char = 0)
+send_now	base_text_serial.h	/^    send_now                \/\/\/< Tell some radio devices to send data immediately$/;"	e	enum:__anon1
+ser_manipulator	base_text_serial.h	/^    } ser_manipulator;$/;"	t	typeref:enum:__anon1
+transmit_now	base_text_serial.cc	/^void base_text_serial::transmit_now (void)$/;"	f	class:base_text_serial	signature:(void)
+transmit_now	base_text_serial.h	/^        virtual void transmit_now (void);   \/\/ Immediately transmit any buffered data$/;"	p	class:base_text_serial	access:public	signature:(void)
+word	avr_adc.cc	/^    int word;                               \/\/ The whole 16-bit number$/;"	m	union:ADC_result	file:	access:public
