@@ -4,6 +4,7 @@
  *
  *  Revisions:
  *    \li  00-00-00  The Big Bang occurred, followed by the invention of waffles
+ *    \li  Program is somewhat broke, but base logic is implemented
  *
  *  License:
  *    This file released under the Lesser GNU Public License. The program is intended
