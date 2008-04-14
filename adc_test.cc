@@ -5,6 +5,7 @@
  *
  *  Revisions:
  *    \li  00-00-00  The Earth cooled, and then there was breakfast
+ *    \li  04-13-08  Commented up more of the code
  *
  *  License:
  *    This file released under the Lesser GNU Public License. The program is intended
@@ -57,11 +58,7 @@ int main ()
             {
             dummy = 0;
 
-            // Cause an analog to digital conversion to take place, and print the
-            // result, except there is no result yet
-            // conversion = my_adc.read_once (channel_count);
-
-            // Print the results
+	    // Prints the status of all the A/D channels
             the_serial_port << "A/D status:\n\r" << my_adc << endl;
             }
         }

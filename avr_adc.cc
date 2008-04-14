@@ -4,7 +4,7 @@
  *
  *  Revisions:
  *    \li  00-00-00  The Big Bang occurred, followed by the invention of waffles
- *    \li  Program is somewhat broke, but base logic is implemented
+ *    \li  04-09-08  Program is somewhat broke, but base logic is implemented
  *
  *  License:
  *    This file released under the Lesser GNU Public License. The program is intended
@@ -50,10 +50,10 @@ avr_adc::avr_adc (base_text_serial* p_serial_port)
     *ptr_to_serial << "Setting up AVR A/D converter" << endl;
 
     // Initializes A/D converter to channel 0
-    ADMUX = 0b00000000;
+    ADMUX = (unsigned char)0b00000000;
 
     // Turns on A/D converter without interrupts or anything, with prescaler set to 16
-    ADCSRA = 0b10000100;
+    ADCSRA = (unsigned char)0b10000100;
     }
 
 
