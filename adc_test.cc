@@ -5,7 +5,9 @@
  *
  *  Revisions:
  *    \li  00-00-00  The Earth cooled, and then there was breakfast
- *    \li  04-13-08  Commented up more of the code
+ *    \li  01-01-00  Confusion
+ *    \li  04-10-08  Man writes adc_test.cc
+ *    \li  04-14-08  Man completes code/comments. There is much rejoycing
  *
  *  License:
  *    This file released under the Lesser GNU Public License. The program is intended
@@ -34,7 +36,6 @@
 int main ()
     {
     volatile unsigned long dummy;           // Used as a not-smart delay loop counter
-    unsigned char channel_count = 0;        // Counts through the channels
     unsigned int conversion;                // Data from the A/D
 
     // Create an RS232 serial port object. Diagnostic information can be printed out 
@@ -58,7 +59,9 @@ int main ()
             {
             dummy = 0;
 
-	    // Prints the status of all the A/D channels
+
+	    // Calls the overloaded << operator to print diagnostic information about
+	    // the A/D conversion ports
             the_serial_port << "A/D status:\n\r" << my_adc << endl;
             }
         }
